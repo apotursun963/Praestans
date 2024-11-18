@@ -11,7 +11,7 @@ setup(
     author_email="tursunapo333@gmail.com",
     description="",
     long_description=long_description,
-    url="",
+    url="https://github.com/apotursun963/praestans",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
