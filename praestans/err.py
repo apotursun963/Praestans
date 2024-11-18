@@ -8,15 +8,13 @@ def verify_input(params, characters):
         if chr not in characters:
             raise ValueError(f"input value must contain only allowed characters: {characters}")
 
-
 def error_handling(func):
     def wrapper(*args, **kwargs):
         params = args[0]
         binary_chrs = ("0", "1")
         octal_chrs = ("0", "1", "2", "3", "4", "5", "6", "7")
         decimal_chrs = ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9")
-        hexa_chrs = ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", 
-                     "a", "b", "c", "d", "e", "f", "A", "B", "C", "D", "E", "F")
+        hexa_chrs = ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "A", "B", "C", "D", "E", "F")
     
         FT_BINARY = ["binary_to_decimal", "binary_to_octal", "binary_to_hexa"]
         FT_OCTAL = ["octal_to_binary", "octal_to_decimal", "octal_to_hexa"]
