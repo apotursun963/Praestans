@@ -1,4 +1,3 @@
-
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as file:
@@ -11,11 +10,12 @@ setup(
     author_email="tursunapo333@gmail.com",
     description="python module that enables easy conversions between number systems",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/apotursun963/praestans",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
