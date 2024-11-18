@@ -8,3 +8,36 @@ You can perform conversions between different number systems quickly and accurat
 Whether you're doing basic calculations or working on software projects that involve numbers, this library saves you time. 
 It's an ideal tool for those looking for a simple and effective solution.
 
+Example usage
+-------------
+```
+from praestans.bin import binary_to_decimal
+from praestans.dec import decimal_to_hexa
+from praestans.oct import octal_to_decimal
+from praestans.hex import hexa_to_binary
+
+
+# Conversion from binary to decimal
+binary = 1011
+decimal_res = binary_to_decimal(binary)
+print(f"binary: {binary} -> decimal: {decimal_res}")
+
+
+# Conversion from octal to decimal
+octal = 1771
+decimal_res = octal_to_decimal(octal)
+print(f"octal: {octal} -> decimal: {decimal_res}")
+
+
+# Conversion from decimal to hexa
+decimal = 255
+hexa_res = decimal_to_hexa(decimal, "X")
+print(f"decimal: {decimal} -> hexadecimal: {hexa_res}")
+
+
+# Conversion from hexa to binary
+hexa = "A32E"
+binary_res = hexa_to_binary(hexa)
+print(f"hexa: {hexa} -> binary: {binary_res}")
+```
+
