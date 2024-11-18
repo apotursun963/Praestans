@@ -1,11 +1,6 @@
-
 from praestans.err import error_handling
 
 # binary -> (decimal, octal, hexadecimal)
-
-
-# binary to decimal
-# sayının her bir basamaığını 2'nin üsünü alıyoruz ve hepsini topluyoruz
 
 @error_handling
 def binary_to_decimal(number):
@@ -15,10 +10,6 @@ def binary_to_decimal(number):
         merge += int(decimal_str[len(decimal_str) - 1 - i]) * (2 ** i)
     return (int(merge))
 
-
-# binary to octal
-# İkili sayıyı 3 bitlik gruplara ayırırız. Eğer grup 3 bitten eksikse, başına sıfır ekleriz. 
-# Her grubu ikili sistemden oktal sisteme dönüştürüp, sonuçları birleştiririz.
 
 @error_handling
 def binary_to_octal(number):
@@ -36,10 +27,6 @@ def binary_to_octal(number):
         octal_str += str(merge)
     return (int(octal_str))
 
-
-# binary to hexadecimal
-# Binary sayıyı 4 bitlik gruplara ayırın ve eksik grup varsa başına sıfır ekleyin.
-# Her 4 bitlik grubu hexadecimal karşılığına çevirin.
 
 @error_handling
 def binary_to_hexa(number):
