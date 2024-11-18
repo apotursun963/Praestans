@@ -1,10 +1,7 @@
-
 from praestans.err import error_handling
 
 # Decimal -> (binary, octal, hexadecimal)
 
-# decimal to binary
-# sayıyı 0 olana kadar 2'ye bölüyoruz ve kalanlarını ters olarak birleştiriyoruz
 
 @error_handling
 def decimal_to_binray(number):
@@ -17,9 +14,6 @@ def decimal_to_binray(number):
     return (binary_str[::-1])
 
 
-# decimal to octal
-# sayıyı 0 olana kadar 8'e bölüyoruz ve kalanlarını ters olarak birleştiriyoruz
-
 @error_handling
 def decimal_to_octal(number):
     octal_str = ""
@@ -30,9 +24,6 @@ def decimal_to_octal(number):
         octal_str += str(left)
     return (int(octal_str[::-1]))
 
-
-# decimal to hexadecimal
-# sayıyı 0 olana kadar 16'e bölüyoruz ve kalanlarını ters olarak birleştiriyoruz
 
 @error_handling
 def decimal_to_hexa(number, size):
