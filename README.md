@@ -10,7 +10,7 @@ It's an ideal tool for those looking for a simple and effective solution.
 
 Example usage
 -------------
-```
+```python
 from praestans.bin import binary_to_decimal
 from praestans.dec import decimal_to_hexa
 from praestans.oct import octal_to_decimal
