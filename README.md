@@ -50,8 +50,8 @@ binary_res = hexa_to_binary(hexa)
 print(f"hexa: {hexa} -> binary: {binary_res}")
 ```
 
-Directory Structure
--------------------
+Project Structure
+------------------
 ```
 praestans/
 ├── praestans/                    # Main Python module (same name as the project)
