@@ -8,6 +8,13 @@ You can perform conversions between different number systems quickly and accurat
 Whether you're doing basic calculations or working on software projects that involve numbers, this library saves you time. 
 It's an ideal tool for those looking for a simple and effective solution.
 
+
+Installation
+------------
+```
+pip install praestans
+```
+
 Example usage
 -------------
 ```python
@@ -41,12 +48,8 @@ binary_res = hexa_to_binary(hexa)
 print(f"hexa: {hexa} -> binary: {binary_res}")
 ```
 
-
-
 Running test
 ------------
 ```
 python .\tst.py
 ```
-
-
