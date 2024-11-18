@@ -54,18 +54,18 @@ Directory Structure
 -------------------
 ```
 praestans/
-├── praestans/
-│   ├── __init__.py
+├── praestans/                    # Main Python module (same name as the project)
+│   ├── __init__.py               # Package initializer file
 │   ├── bin.py
 │   ├── dec.py
 │   ├── err.py
 │   ├── hex.py
 │   ├── oct.py
-├── ceaser.jpg
-├── LICENSE
-├── README.md
-├── setup.py
-└── tst.py
+├── ceaser.jpg                    # Image file
+├── LICENSE                       # License information
+├── README.md                     # Project description
+├── setup.py                      # Script for package installation
+└── tst.py                        # Test file
 ```
 
 Running test
