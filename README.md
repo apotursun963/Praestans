@@ -17,6 +17,7 @@ pip install praestans
 
 Example usage
 -------------
+This library offers a total of 12 different functions to convert between binary, octal, decimal, and hexadecimal number systems. Here are 4 examples of these functions:
 ```python
 from praestans.bin import binary_to_decimal
 from praestans.dec import decimal_to_hexa
