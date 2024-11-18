@@ -9,7 +9,7 @@ setup(
     version="0.1.0",
     author="Abdullah Tursun",
     author_email="tursunapo333@gmail.com",
-    description="",
+    description="python module that enables easy conversions between number systems",
     long_description=long_description,
     url="https://github.com/apotursun963/praestans",
     packages=find_packages(),
