@@ -50,6 +50,24 @@ binary_res = hexa_to_binary(hexa)
 print(f"hexa: {hexa} -> binary: {binary_res}")
 ```
 
+Directory Structure
+-------------------
+```
+praestans/
+├── praestans/
+│   ├── __init__.py
+│   ├── bin.py
+│   ├── dec.py
+│   ├── err.py
+│   ├── hex.py
+│   ├── oct.py
+├── ceaser.jpg
+├── LICENSE
+├── README.md
+├── setup.py
+└── tst.py
+```
+
 Running test
 ------------
 ```
