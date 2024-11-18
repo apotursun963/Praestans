@@ -41,3 +41,12 @@ binary_res = hexa_to_binary(hexa)
 print(f"hexa: {hexa} -> binary: {binary_res}")
 ```
 
+
+
+Running test
+------------
+```
+python .\tst.py
+```
+
+
