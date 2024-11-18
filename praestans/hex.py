@@ -11,7 +11,6 @@ def hexa_to_decimal(number):
     hexa_chrs_low = "abcdef"
     hexa_str = str(number)
     dec_sum = 0
-
     for i in range(len(hexa_str)):
         char = hexa_str[len(hexa_str) - 1 - i]
         if char.isdigit():
