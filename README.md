@@ -8,6 +8,7 @@ You can perform conversions between different number systems quickly and accurat
 Whether you're doing basic calculations or working on software projects that involve numbers, this library saves you time. 
 It's an ideal tool for those looking for a simple and effective solution.
 
+  - Source code: (https://github.com/apotursun963/praestans)
 
 Installation
 ------------
