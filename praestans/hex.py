@@ -72,7 +72,7 @@ def hexa_to_binary(number):
         number (int | str): The hexadecimal number to convert.
 
     Returns:
-        int: An integer representing the binary equivalent of the input number.
+        str: A string representing the binary equivalent of the input number.
 
     Example:
         hexa_to_binary(ee324) -> 11101110001100100100
@@ -94,4 +94,4 @@ def hexa_to_binary(number):
         j += 1
     while len(binary) % 4 != 0:
         binary = "0" + binary
-    return (int(binary))
+    return (binary)

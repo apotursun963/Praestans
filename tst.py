@@ -39,11 +39,11 @@ class TestNumberSystem(unittest.TestCase):
         self.assertEqual(octal_to_decimal(10272), 4282)
 
     def test_oct2bin(self):
-        self.assertEqual(octal_to_binary(26), "10110")
-        self.assertEqual(octal_to_binary("7623"), "111110010011")
-        self.assertEqual(octal_to_binary(12312311), "1010011001010011001001")
-        self.assertEqual(octal_to_binary("01234"), "1010011100")
-        self.assertEqual(octal_to_binary(712635), "111001010110011101")
+        self.assertEqual(octal_to_binary(26), 10110)
+        self.assertEqual(octal_to_binary("7623"), 111110010011)
+        self.assertEqual(octal_to_binary(12312311), 1010011001010011001001)
+        self.assertEqual(octal_to_binary("01234"), 1010011100)
+        self.assertEqual(octal_to_binary(712635), 111001010110011101)
 
     def test_oct2hex(self):
         self.assertEqual(octal_to_hexa(53), "2B")

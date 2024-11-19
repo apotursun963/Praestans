@@ -24,7 +24,7 @@ def decimal_to_binray(number):
         left = number % 2
         number = number // 2
         binary_str += str(left)
-    return (int(binary_str[::-1]))
+    return (binary_str[::-1])
 
 
 @error_handling
