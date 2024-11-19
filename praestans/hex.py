@@ -2,15 +2,27 @@ from praestans.dec import decimal_to_binray
 from praestans.bin import binary_to_octal
 from praestans.err import error_handling
 
-# hexadecimal -> (decimal, octal, binary)
-
-
 @error_handling
 def hexa_to_decimal(number):
+    """
+    Converts a hexadecimal (base-16) number to its decimal (base-10) representation.
+
+    Parameters:
+        number (int | str): The hexadecimal number to convert.
+
+    Returns:
+        int: An integer representing the decimal equivalent of the input number.
+
+    Example:
+        hexa_to_decimal(ACC342) -> 11322178
+
+    How it works:
+       
+    """
+    result = 0
+    hexa_str = str(number)
     hexa_chrs_up = "ABCDEF"
     hexa_chrs_low = "abcdef"
-    hexa_str = str(number)
-    dec_sum = 0
     for i in range(len(hexa_str)):
         char = hexa_str[len(hexa_str) - 1 - i]
         if char.isdigit():
@@ -19,8 +31,8 @@ def hexa_to_decimal(number):
             value = 10 + hexa_chrs_up.index(char)
         elif char in hexa_chrs_low:
             value = 10 + hexa_chrs_low.index(char)
-        dec_sum += value * (16 ** i)
-    return (dec_sum)
+        result += value * (16 ** i)
+    return (result)
 
 
 @error_handling
