@@ -8,6 +8,7 @@ def verify_input(params, characters):
         if chr not in characters:
             raise ValueError(f"input value must contain only allowed characters: {characters}")
 
+
 def error_handling(func):
     def wrapper(*args, **kwargs):
         params = args[0]

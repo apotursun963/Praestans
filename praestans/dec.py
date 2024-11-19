@@ -18,11 +18,12 @@ def decimal_to_binray(number):
         Divide the number by 2 until it becomes 0, and recod the remainder at each step.
         Reverse the remainders to obtain the binary number.
     """
+    bin_base = 2
     binary_str = ""
     number = int(number)
     while (number > 0):
-        left = number % 2
-        number = number // 2
+        left = number % bin_base
+        number = number // bin_base
         binary_str += str(left)
     return (binary_str[::-1])
 
@@ -45,11 +46,12 @@ def decimal_to_octal(number):
         Divide the number by 8 until it becomes 0, and recod the remainder at each step.
         Reverse the remainders to obtain the octal number.
     """
+    oct_base = 8
     octal_str = ""
     number = int(number)
     while (number > 0):
-        left = number % 8
-        number = number // 8
+        left = number % oct_base
+        number = number // oct_base
         octal_str += str(left)
     return (int(octal_str[::-1]))
 
@@ -73,11 +75,12 @@ def decimal_to_hexa(number, size):
         Reverse the remainders to obtain the hexadecimal number.
     """
     hex_str = ""
+    hexa_base = 16
     hex_chrs = "0123456789abcdef"
     hex_chrs = hex_chrs.upper() if size == "X" else hex_chrs
     number = int(number)
     while (number > 0):
-        left = number % 16
-        number = number // 16
+        left = number % hexa_base
+        number = number // hexa_base
         hex_str += hex_chrs[left]
     return (hex_str[::-1])

@@ -83,15 +83,15 @@ def hexa_to_binary(number):
     """
     hexa_str = str(number)
     decimal = hexa_to_decimal(hexa_str)
-    binary = decimal_to_binray(decimal)
+    bin_res = decimal_to_binray(decimal)
 
     i = 0
     while (hexa_str[i] == "0"):
         i += 1
     j  = 0
     while j < (i * 4):
-        binary = "0" + binary
+        bin_res = "0" + bin_res
         j += 1
-    while len(binary) % 4 != 0:
-        binary = "0" + binary
-    return (binary)
+    while len(bin_res) % 4 != 0:
+        bin_res = "0" + bin_res
+    return (bin_res)

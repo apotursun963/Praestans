@@ -46,7 +46,7 @@ print(f"decimal: {decimal} -> hexadecimal: {hexa_res}")
 
 
 # Conversion from hexa to binary
-hexa = "A32E"
+hexa = "AE221"
 binary_res = hexa_to_binary(hexa)
 print(f"hexa: {hexa} -> binary: {binary_res}")
 ```

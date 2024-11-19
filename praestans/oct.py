@@ -20,14 +20,14 @@ def octal_to_binary(number):
         To convert an octal number to binary, convert each octal digit to its 3-bit binary equivalent. 
         If the binary equivalent has less than 3 bits, add leading zeros. Finally, combine these 3-bit values to form the binary number.
     """
-    binary_str = ""
-    octal_str = str(number)
-    for i in range(len(octal_str)):
-        part = str(decimal_to_binray(int(octal_str[i])))
+    bin_str = ""
+    oct_str = str(number)
+    for i in range(len(oct_str)):
+        part = str(decimal_to_binray(int(oct_str[i])))
         while len(part) < 3:
             part = "0" + part
-        binary_str += part
-    return (int(binary_str.lstrip("0") or "0"))
+        bin_str += part
+    return (int(bin_str.lstrip("0") or "0"))
 
 
 @error_handling
@@ -49,9 +49,9 @@ def octal_to_decimal(number):
         Starting from rightmost digit, the value of each digit is multiplied by increasing powers of 8, such as 8^0, 8^1 8^2, and so on.
     """
     result = 0
-    octal_str = str(number)
-    for i in range(len(octal_str)):
-        result += int(octal_str[len(octal_str) - 1 - i]) * (8 ** i)
+    oct_str = str(number)
+    for i in range(len(oct_str)):
+        result += int(oct_str[len(oct_str) - 1 - i]) * (8 ** i)
     return (result)
 
 
@@ -74,6 +74,6 @@ def octal_to_hexa(number):
         Then, combine these 3-bit values to form the binary number. 
         After that, divide the binary number into 4-bit groups and convert each group to hexadecimal.
     """
-    binar_str = octal_to_binary(number)
-    hexa_str = binary_to_hexa(binar_str).lstrip("0")
+    bin_str = octal_to_binary(number)
+    hexa_str = binary_to_hexa(bin_str).lstrip("0")
     return (hexa_str)

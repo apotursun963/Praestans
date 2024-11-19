@@ -94,7 +94,7 @@ class TestNumberSystem(unittest.TestCase):
     def test_hex2dec(self):
         self.assertEqual(hexa_to_decimal("eff234"), 15725108)
         self.assertEqual(hexa_to_decimal("7334E"), 471886)
-        self.assertEqual(hexa_to_decimal(1234), 4660)
+        self.assertEqual(hexa_to_decimal(134), 308)
         self.assertEqual(hexa_to_decimal("000ee"), 238)
         self.assertEqual(hexa_to_decimal("0123456789"), 4886718345)
 
