@@ -66,7 +66,7 @@ praestans/
 ├── LICENSE                       # License information
 ├── README.md                     # Project description
 ├── setup.py                      # Script for package installation
-└── test.py                        # Test file
+└── test.py                       # Test file
 ```
 
 Running test
