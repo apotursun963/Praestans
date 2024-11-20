@@ -9,7 +9,7 @@ Whether you're doing basic calculations or working on software projects that inv
 It's an ideal tool for those looking for a simple and effective solution.
 
   - PyPI: https://pypi.org/project/praestans
-  - Source code: https://github.com/apotursun963/praestans
+  - Source: https://github.com/apotursun963/praestans
 
 Installation
 ------------
