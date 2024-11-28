@@ -1,7 +1,7 @@
 Praestans
 ----------
 
-![Sürüm](https://img.shields.io/badge/Version-0.1.2-green)  ![Dil](https://img.shields.io/badge/Language-Python-blue)
+![Sürüm](https://img.shields.io/badge/Version-0.1.2-green)      ![Dil](https://img.shields.io/badge/Language-Python-blue)
 
 ![veni2](https://github.com/user-attachments/assets/0e6e7ab9-7f72-470a-91a3-3b12860455d9)
 
