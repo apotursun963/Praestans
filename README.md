@@ -1,28 +1,23 @@
-# Praestans: A Simple and Efficient Number System Converter
+Praestans
+----------
 
-![Version](https://img.shields.io/badge/version-0.1.2-orange)  
-![License](https://img.shields.io/badge/license-MIT-green)  
-![Top Language](https://img.shields.io/github/languages/top/apotursun963/praestans)  
-![Build Status](https://img.shields.io/github/workflow/status/apotursun963/praestans/build)  
-![Last Commit](https://img.shields.io/github/last-commit/apotursun963/praestans)
+![Sürüm](https://img.shields.io/badge/version-0.1.2-orange)  ![Dil](https://img.shields.io/badge/license-MIT-green)  ![Dil](https://img.shields.io/github/languages/top/apotursun963/praestans)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Example Usage](#example-usage)
-- [Project Structure](#project-structure)
-- [Running Tests](#running-tests)
-- [Contributing](#contributing)
-- [License](#license)
 
-## Introduction
-**Praestans** is a Python library designed to simplify the conversion between binary, octal, decimal, and hexadecimal number systems. Whether you're doing basic calculations or working on more complex software projects, this library offers an efficient and accurate solution for number system conversions. It is an ideal tool for anyone who needs fast and reliable conversions between different numeric systems.
+![veni2](https://github.com/user-attachments/assets/0e6e7ab9-7f72-470a-91a3-3b12860455d9)
 
-## Installation
-You can install **Praestans** using `pip`:
+This Python library allows you to easily convert between binary, octal, decimal, and hexadecimal number systems. 
+You can perform conversions between different number systems quickly and accurately.
+Whether you're doing basic calculations or working on software projects that involve numbers, this library saves you time. 
+It's an ideal tool for those looking for a simple and effective solution.
+
+  - Source code: https://github.com/apotursun963/praestans
+
+Installation
+------------
 ```bash
 pip install praestans
-
+```
 
 Example usage
 -------------
