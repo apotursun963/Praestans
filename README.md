@@ -1,6 +1,8 @@
 praestans
 ----------
 
+![Sürüm](https://img.shields.io/badge/version-1.0.0-blue)
+
 ![veni2](https://github.com/user-attachments/assets/0e6e7ab9-7f72-470a-91a3-3b12860455d9)
 
 This Python library allows you to easily convert between binary, octal, decimal, and hexadecimal number systems. 
