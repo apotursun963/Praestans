@@ -1,4 +1,4 @@
-praestans
+Praestans
 ----------
 
 ![Sürüm](https://img.shields.io/badge/version-0.1.2-blue)
