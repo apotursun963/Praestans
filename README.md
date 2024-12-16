@@ -58,19 +58,13 @@ Project Structure
 ------------------
 ```
 praestans/
-├── documents/                    # Documentation folder
-│   ├── 1-Binary_System.md        
-│   ├── 2-Octal_System.md         
-│   ├── 3-Decimal_System.md       
-│   ├── 4-Hexadecimal_System.md   
-│   └── Number_System_Theory.md   
 ├── praestans/                    # Main Python module (same name as the project)
 │   ├── __init__.py               
 │   ├── bin.py                    
 │   ├── dec.py                    
 │   ├── err.py                    
 │   ├── hex.py                    
-│   ├── oct.py                    
+│   ├── oct.py                
 ├── ceaser.jpg                    # Image file
 ├── LICENSE                       # License information
 ├── README.md                     # Project description
